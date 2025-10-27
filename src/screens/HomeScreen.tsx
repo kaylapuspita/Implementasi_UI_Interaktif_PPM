@@ -8,6 +8,7 @@ import {
   ImageBackground,
 } from 'react-native';
 
+
 const colors = {
   primary: '#00b8b0',
   secondary: '#343A40',
@@ -23,7 +24,7 @@ const App = () => {
   const navigation = useNavigation();
 
   return (
-    <ImageBackground source={require('../../assets/bg.jpg')} style={styles.image}>
+    <ImageBackground source={require('../../assets/gambar1.jpg')} style={styles.image}>
       <View style={[container, {justifyContent: 'flex-end'}]}>
         <Text style={styles.title}>Your Next Adventure Starts Here</Text>
         <Text style={styles.text}>
